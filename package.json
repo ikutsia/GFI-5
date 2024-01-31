@@ -1,0 +1,18 @@
+{
+  "name": "georgian-film-institute",
+  "version": "1.0.0",
+  "description": "Website of Georgian Film Institute",
+  "scripts": {
+    "build": "npm run generate-lockfile",
+    "generate-lockfile": "npm install"
+  },
+  "author": "Irakli Kutsia",
+  "license": "GFI",
+  "devDependencies": {
+    "sass": "^1.32.8",
+    "webpack": "^5.66.0",
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
+}
