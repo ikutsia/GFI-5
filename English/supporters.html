@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georgian Film Institute</title>
+
+    <!-- Import Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <!--Link to Font Awesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="supporters.css" />
+
+    <link rel="stylesheet" href="reset.css" />
+    <!-- Include a CSS reset file -->
+  </head>
+  <body>
+    <!--Top Navigation Bar-->
+    <section class="Top">
+      <topNavBar class="Nav">
+        <a href="./TopBar/wordofpresident.html">Word From The GFI President</a>
+        <a href="./TopBar/activities.html">Activities</a>
+        <a href="./TopBar/contests.html">Contests and Support</a>
+        <a href="./TopBar/projects.html">Current Projects</a>
+        <a href="./TopBar/catalogue.html">Film Catalogue</a>
+        <a href="./TopBar/qualifications.html">Film Qualifications Framework</a>
+        <a href="./TopBar/news.html">Industry News</a>
+        <div class="lang-buttons">
+          <a href="#" class="geo-btn"
+            ><img src="/geo-flag.png" alt="Georgian Flag"
+          /></a>
+          <a href="#" class="eng-btn"
+            ><img src="/eng-flag.png" alt="English Flag"
+          /></a>
+        </div>
+      </topNavBar>
+    </section>
+
+    <!--Side Navigation Bar-->
+    <section class="Side">
+      <div class="LogoName">
+        <div class="Logo">
+          <a href="index.html"><img src="../Logo.png" alt="GFA Logo" /></a>
+        </div>
+        <div class="Name">
+          <h1><a href="index.html" class="name">Georgian Film Institute</a></h1>
+        </div>
+      </div>
+
+      <sideNavBar class="SideNav">
+        <!--First Collapsible Menu Item-->
+        <div class="menu-container">
+          <p class="toggle-text" onclick="toggleMenu('collapsible-menu')">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            GFI
+          </p>
+          <ul class="menu" id="collapsible-menu">
+            <li><a href="./SideBar/objectives.html">Objectives</a></li>
+            <li><a href="./SideBar/areas.html">Areas</a></li>
+            <li><a href="./SideBar/values.html">Values</a></li>
+            <li><a href="./SideBar/history.html">History</a></li>
+          </ul>
+
+          <!--Second Collapsible Menu Item-->
+          <p
+            class="sidebar-item"
+            onclick="toggleMenu('collapsible-sidebar-menu')"
+          >
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            Governance
+          </p>
+          <ul class="sidebar-collapsible-menu" id="collapsible-sidebar-menu">
+            <li><a href="./SideBar/board.html">Board of Filmmakers</a></li>
+            <li><a href="./SideBar/committee.html">Executive Committee</a></li>
+            <li>
+              <a href="./SideBar/promotion.html">Georgian Film Promotion</a>
+            </li>
+          </ul>
+          <script src="script.js"></script>
+        </div>
+
+        <a href="partners.html" class="a-2">Partners</a>
+        <a href="supporters.html" class="a-2">Supporters</a>
+        <a href="contact.html" class="a-2">Contact</a>
+      </sideNavBar>
+    </section>
+
+    <section class="Hero">
+      <hero>
+        <div class="hero-image">
+          <img src="/Images/img-6-1.png" alt="Hero Section Image" />
+        </div>
+        <div class="hero-text">
+          <h2>Supporters</h2>
+          <p>....</p>
+
+          <p>....</p>
+        </div>
+      </hero>
+    </section>
+  </body>
+</html>
